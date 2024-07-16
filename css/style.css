@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html, body{
+    overflow-y: hidden;
+    overflow-x: hidden;
+    height: 100%;
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1240px;
+    padding: 0 2%;
+    margin: 0 auto;
+}
+
+.logo{
+    width: 50%;
+}
+
+header{
+    padding: 20px 0;
+    height: 200px;
+}
+
+.menu{
+    width: 50%;
+    padding-top: 30px;
+    text-align: right;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+
+section.sobre{
+    position: relative;
+    height: calc(100% - 200px);
+}
+
+.extras{
+    position:absolute;
+    bottom: -450px;
+    right: -500px;
+    border-radius: 50%;
+    width: 1100px;
+    height: 1100px;
+    background-color: green;
+}
+
+.social1-media{
+   position: absolute;
+   right: 550px;
+   top: 200px;
+}
+
+.social1-media img{
+    display: block;
+    padding: 20px 0 20px 0px;
+    width: 20px;
+}
+
+.texto-sobre{
+    margin-top: 100px;
+}
+
+.texto-sobre h1{
+    font-size: 50px;
+}
+
+.texto-sobre p{
+    font-size: 15px;
+    margin: 20px 0 20px 0;
+    font-weight: bold;
+    width: 600px;
+
+}
+
+.btn{
+    cursor: pointer;
+    color: white;
+    background-color: green;
+    border: none;
+    border-radius: 20px;
+    height: 50px;
+    padding: 20px;
+    font-weight: bold;
+}
